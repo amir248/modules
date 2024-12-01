@@ -11,6 +11,8 @@ async function main() {
     const myModule = await import("https://amir248.github.io/modules/modules/first.js");
     // use myModule
     myModule.first();
+    const example=await import("https://amir248.github.io/modules/modules/example.js");
+    example.example();
     // first();
     const secondModule=await import("https://amir248.github.io/modules/modules/second.js");
     secondModule.second();
