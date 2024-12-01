@@ -8,11 +8,11 @@ sayHi('John'); // Hello, John!
 sayBye('John'); // Bye, John!
 
 async function main() {
-    const myModule = await import("/modules/modules/first.js");
+    const myModule = await import("https://amir248.github.io/modules/modules/first.js");
     // use myModule
     myModule.first();
     // first();
-    const secondModule=await import("/modules/modules/second.js");
+    const secondModule=await import("https://amir248.github.io/modules/modules/second.js");
     secondModule.second();
     await sayHi("AmirDzhan!");
     await sayBye('Communist!');
