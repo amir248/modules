@@ -7,6 +7,7 @@ body{
     margin-right:auto;
     width:100%;
     max-width:1300px;
+    background: linear-gradient(rgba(200,200,0,0.7),rgba(0,244,244,0.3));
 }
 main{
     font-size:20px;
@@ -15,6 +16,7 @@ main > picture > img{
     width:100%;
     max-width:300px;
     float:right;
+    border-radius: 0 0 0 14px;
 }
 @media(max-width:500px){
     main > picture > img{
