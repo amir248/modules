@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Продвижение сайта на яваскрипте, простым путем, с помощью SEO оптимизации.">
+    <meta name="description" content="Продвижение сайта на яваскрипте, простым путем, с помощью SEO оптимизации. И подключаемых асинхронных модулей для быстрейшей работы.">
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
-    <title>Modules</title>
+    <title>Modules JS with SEO optimization</title>
 </head>
 <body>
     <main>
         <picture>
+            <source srcset="img/1724069449275-300.webp" media="(max-width: 1700px)" />
+            <source srcset="img/1724069449275.webp" type="image/webp" />
             <img src="img/1724069449275.jpg" alt="AmirDjzanBrotan">
         </picture>
         <h1>SEO optimi<wbr>zation langing page with seman<wbr>tical tags and video on youtube!</h1>
@@ -32,5 +34,10 @@
         <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d83326.85956184001!2d-67.00897258758445!3d24.00374629979865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2sru!4v1733035683538!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
     </main>
 </body>
+<script>
+    if(innerWidth<570){
+        document.querySelector('body > main > section > iframe').style.width=`100%`;
+    }
+</script>
 <script defer type="module" src="https://amir248.github.io/modules/main.js"></script>
 </html>

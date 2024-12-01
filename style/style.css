@@ -21,3 +21,9 @@ main > picture > img{
         max-width:130px;
     }
 }
+section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
