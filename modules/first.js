@@ -4,14 +4,14 @@ export function first(){
             setTimeout(()=>{
                 const first=document.createElement('strong');
                 first.innerHTML='it\'s first function!';
-                document.querySelector('main').append(first);
+                document.querySelector('article').append(first);
             },999);
         };
         function noN(){{
             setTimeout(()=>{
                 const first=document.createElement('p');
                 first.innerHTML='it\'s first NON function!';
-                document.querySelector('main').append(first);
+                document.querySelector('article').append(first);
             },9);
         }}
     resolve(oK());
