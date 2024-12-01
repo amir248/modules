@@ -13,7 +13,7 @@ async function main() {
     myModule.first();
     const example=await import("https://amir248.github.io/modules/modules/example.js");
     example.example();
-    // first();
+    
     const secondModule=await import("https://amir248.github.io/modules/modules/second.js");
     secondModule.second();
     await sayHi("AmirDzhan!");
