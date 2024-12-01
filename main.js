@@ -1,5 +1,5 @@
 // 📁 main.js
-import {sayHi, sayBye} from '/modules/modules/say.js';
+import {sayHi, sayBye} from '../modules/say.js';
 
 // import {first} from "/modules/first.js";
 
