@@ -8,12 +8,12 @@ sayHi('John'); // Hello, John!
 sayBye('John'); // Bye, John!
 
 async function main(){
+    await sayHi("AmirDzhan!");
     const myModule = await import("https://amir248.github.io/modules/modules/first.js");
     myModule.first();
     const secondModule=await import("https://amir248.github.io/modules/modules/second.js");
     secondModule.second();
-    await sayHi("AmirDzhan!");
-    await sayBye('Communist!');
+    await sayHi("Everyone!");
     const finallyLoading= await import("https://amir248.github.io/modules/modules/finallyLoading.js");
     window.addEventListener('DOMContentLoaded',finallyLoading.finallyLoadingThisPage());
     // finallyLoading.finallyLoadingThisPage();
@@ -21,7 +21,7 @@ async function main(){
     const example=await import("https://amir248.github.io/modules/modules/example.js");
     example.example();
     
-    
+    await sayBye('Communist!');
 }
 
 main();
