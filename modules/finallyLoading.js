@@ -6,3 +6,4 @@ function finallyLoadingThisPage(){
         resolve(oK());
     });
 };
+export {finallyLoadingThisPage};
