@@ -9,7 +9,7 @@ sayBye('John'); // Bye, John!
 
 async function main() {
     const finallyLoading= await import("https://amir248.github.io/modules/modules/finallyLoading.js");
-    window.addEventListener('DOMContentLoaded',finallyLoading);
+    window.addEventListener('DOMContentLoaded',finallyLoading.finallyLoadingThisPage());
     const myModule = await import("https://amir248.github.io/modules/modules/first.js");
     // use myModule
     myModule.first();
